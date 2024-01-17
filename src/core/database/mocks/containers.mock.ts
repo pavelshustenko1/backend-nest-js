@@ -1,0 +1,40 @@
+import { Container } from '../../../modules/containers/types/container.type';
+
+export const CONTAINERS: Container[] = [
+  {
+    id: 'fdf36a5c-917b-414f-81b6-54342f532f1b',
+    name: 'Box',
+    description: 'Simple box',
+    length: 20,
+    width: 20,
+    height: 20,
+    capacity: 8000,
+    availableCapacity: 8000,
+    thingsInside: [],
+    nestedContainer: undefined,
+  },
+  {
+    id: 'd4fd8d9a-5c05-414a-8dc8-df73dccf4d04',
+    name: 'Pocket',
+    description: 'My pocket',
+    length: 4,
+    width: 2,
+    height: 7,
+    capacity: 56,
+    availableCapacity: 56,
+    thingsInside: [],
+    nestedContainer: undefined,
+  },
+  {
+    id: '9aebbad3-1a41-4c8f-8605-2b84f4766008',
+    name: 'Closet',
+    description: 'My closet',
+    length: 600,
+    width: 600,
+    height: 140,
+    capacity: 3_600_000,
+    availableCapacity: 3_600_000,
+    thingsInside: [],
+    nestedContainer: undefined,
+  },
+];
